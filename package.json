@@ -1,0 +1,36 @@
+{
+  "name": "Gulp-spa-starter-setup",
+  "version": "1.0.0",
+  "description": "This project proposes a structure of gulp tasks that aims to build a SPA.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeJBarros/Gulp-spa-starter-setup.git"
+  },
+  "keywords": [],
+  "author": "Felipe Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeJBarros/Gulp-spa-starter-setup/issues"
+  },
+  "homepage": "https://github.com/FelipeJBarros/Gulp-spa-starter-setup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-watch": "^5.0.1",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^6.0.1",
+    "sass": "^1.41.0"
+  }
+}
